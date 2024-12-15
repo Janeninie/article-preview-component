@@ -11,6 +11,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: {
+          veryDarkGrayishBlue: "hsl(217, 19%, 35%)",
+          grayishBlue: "hsl(212, 23%, 69%)",
+          lightGrayishBlue: "hsl(210, 46%, 95%)",
+        },
+      },
+      animation: {
+        up: "up 0.3s ease-in-out",
       },
     },
   },
